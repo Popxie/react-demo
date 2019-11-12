@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import { View } from './pages/view';
-
+import BaseRouter  from './router/router'
 
 function App() {
   
   return (
     <div className="App">
-      <View />
+      <BaseRouter />
     </div>
   );
 }
