@@ -11,17 +11,14 @@ export default class Home extends React.Component {
     return (
       <div style={{ margin: 15 }}>
         <Button 
-          onClick={this.goDetailClick}
-          type="link">去details(显示传参)</Button>
-        <Button 
           onClick={() => history.push({
-            pathname: '/detail',
+            pathname: '/video/flutter-page',
             state: {
               id: 3,
               name: 'xiexie'
             }
           })}
-          type="primary">去detail(隐式传参)</Button>
+          type="primary">go(隐式传参)</Button>
       </div>
     )
   }

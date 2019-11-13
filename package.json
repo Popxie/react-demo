@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "cf-mock-server": "^1.0.14",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "mockjs": "^1.0.1-beta3"
   },
   "eslintConfig": {

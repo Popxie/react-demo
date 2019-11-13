@@ -17,11 +17,8 @@ export default class Home extends React.Component {
     return (
       <div style={{ margin: 15 }}>
         <Button 
-          onClick={this.goHomeClick}
-          type="link">回到home</Button>
-        <Button 
-          onClick={() => history.push('/')}
-          type="primary">通过函数跳转</Button>
+          onClick={() => history.push('/video/vue-page')}
+          type="primary">Go</Button>
         <Button 
           style={{ marginLeft: 15 }}
           onClick={() => history.goBack()}
